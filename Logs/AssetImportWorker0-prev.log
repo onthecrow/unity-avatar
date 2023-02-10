@@ -1,0 +1,925 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/onthecrow/My first project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57954
+Successfully changed project path to: /Users/onthecrow/My first project
+/Users/onthecrow/My first project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8534817408] Host "[IP] 192.168.202.102 [Port] 0 [Flags] 2 [Guid] 4275655946 [EditorId] 4275655946 [Version] 1048832 [Id] OSXEditor(0,Dmitrys-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8534817408] Host "[IP] 192.168.202.102 [Port] 0 [Flags] 2 [Guid] 4275655946 [EditorId] 4275655946 [Version] 1048832 [Id] OSXEditor(0,Dmitrys-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 64.40 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.35 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/onthecrow/My first project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56274
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000998 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 72 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.76 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.40 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (444ms)
+		BeginReloadAssembly (30ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (354ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (60ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (118ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (45ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000954 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.34 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (469ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (10ms)
+		EndReloadAssembly (358ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.31 ms.
+Unloading 2843 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (85.7 KB). Loaded Objects now: 3316.
+Memory consumption went from 105.3 MB to 105.2 MB.
+Total: 2.162666 ms (FindLiveObjects: 0.090208 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.957292 ms  DeleteObjects: 0.081291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000858 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x290437000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.35 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (425ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (313ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (99ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (48ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.33 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.4 KB). Loaded Objects now: 3319.
+Memory consumption went from 102.6 MB to 102.6 MB.
+Total: 2.016500 ms (FindLiveObjects: 0.096667 ms CreateObjectMapping: 0.031542 ms MarkObjects: 1.810958 ms  DeleteObjects: 0.076583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229032.756626 seconds.
+  path: Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle
+  artifactKey: Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle using Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eaabd02597e29086d7856e9bcb9e51') in 0.065811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 366.804053 seconds.
+  path: Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle
+  artifactKey: Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle using Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b411e57efbd89d0ca9261d365925b73') in 0.001837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.349665 seconds.
+  path: Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle
+  artifactKey: Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle using Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3e91cf090ef9a73c851a46b4836f14') in 0.001082 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000934 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x290437000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.33 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.430 seconds
+Domain Reload Profiling:
+	ReloadAssembly (431ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (317ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (105ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Plugins: Couldn't open Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, error: dlopen(Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle, 0x0002): tried: 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OSAssets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Frameworks/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/usr/lib/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file, not in dyld cache), 'Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (no such file), '/Users/onthecrow/My first project/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64'))
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.5 KB). Loaded Objects now: 3323.
+Memory consumption went from 106.8 MB to 106.7 MB.
+Total: 2.643708 ms (FindLiveObjects: 0.112542 ms CreateObjectMapping: 0.035250 ms MarkObjects: 2.429875 ms  DeleteObjects: 0.065208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.457564 seconds.
+  path: Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle
+  artifactKey: Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle using Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af5f9452b604c0a332720fe9cd72888') in 0.009565 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000915 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e523000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (426ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (99ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (49ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.4 KB). Loaded Objects now: 3326.
+Memory consumption went from 106.8 MB to 106.7 MB.
+Total: 1.985125 ms (FindLiveObjects: 0.094500 ms CreateObjectMapping: 0.035542 ms MarkObjects: 1.780875 ms  DeleteObjects: 0.073625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3.479826 seconds.
+  path: Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle
+  artifactKey: Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle using Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b58458f4592f4bc85dc7918632196be') in 0.008565 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000888 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16dd7b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (458ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (346ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.5 KB). Loaded Objects now: 3329.
+Memory consumption went from 106.8 MB to 106.7 MB.
+Total: 1.970417 ms (FindLiveObjects: 0.106583 ms CreateObjectMapping: 0.034291 ms MarkObjects: 1.765000 ms  DeleteObjects: 0.063917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 146.210612 seconds.
+  path: Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle
+  artifactKey: Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle using Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad48611a55c2fefec0b81dd833f7e17c') in 0.008860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.229151 seconds.
+  path: Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle
+  artifactKey: Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle using Guid(79c2e7f7b1a214443ab64ef151d6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8cb43785e33605a0d3f9f89a087378') in 0.001224 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000885 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16dd7b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.450 seconds
+Domain Reload Profiling:
+	ReloadAssembly (450ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (342ms)
+			LoadAssemblies (26ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (114ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.5 KB). Loaded Objects now: 3332.
+Memory consumption went from 106.8 MB to 106.7 MB.
+Total: 2.077417 ms (FindLiveObjects: 0.094541 ms CreateObjectMapping: 0.033625 ms MarkObjects: 1.882834 ms  DeleteObjects: 0.065625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.5 KB). Loaded Objects now: 3332.
+Memory consumption went from 50.8 MB to 50.7 MB.
+Total: 2.006292 ms (FindLiveObjects: 0.114042 ms CreateObjectMapping: 0.034875 ms MarkObjects: 1.803125 ms  DeleteObjects: 0.054083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000974 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16dd7b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (433ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (324ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (104ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (51ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.4 KB). Loaded Objects now: 3335.
+Memory consumption went from 106.8 MB to 106.7 MB.
+Total: 1.944334 ms (FindLiveObjects: 0.100167 ms CreateObjectMapping: 0.034333 ms MarkObjects: 1.749792 ms  DeleteObjects: 0.059542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.6 KB). Loaded Objects now: 3335.
+Memory consumption went from 50.8 MB to 50.7 MB.
+Total: 1.841792 ms (FindLiveObjects: 0.097459 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.666125 ms  DeleteObjects: 0.045917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6075.382177 seconds.
+  path: Assets/Oculus/LipSync/Plugins/Win64/Rick_Sanchez_Tri_UV.obj
+  artifactKey: Guid(3cb2cd9f020db4e1f88a01ae418717e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Plugins/Win64/Rick_Sanchez_Tri_UV.obj using Guid(3cb2cd9f020db4e1f88a01ae418717e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680fd8bcb72a442489d46dcfa5249983') in 0.312095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.690012 seconds.
+  path: Assets/textures
+  artifactKey: Guid(8d356747530e74ee7836fc61cb4af933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures using Guid(8d356747530e74ee7836fc61cb4af933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e81c4c390261c67f2023b1233aa82c5') in 0.001753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.381536 seconds.
+  path: Assets/textures/000.jpg
+  artifactKey: Guid(8c0e1736d8e00451596336071b4f08cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/000.jpg using Guid(8c0e1736d8e00451596336071b4f08cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d8437aef7b22825cf4d0d8f7f7956b') in 0.479494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.168327 seconds.
+  path: Assets/Tree_Textures
+  artifactKey: Guid(b650386345bc74dabac38a5548d4d34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures using Guid(b650386345bc74dabac38a5548d4d34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867bd288edb5ba9d4cc073fcaa4dc700') in 0.001598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2321.855938 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.001672 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16dcef000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (442ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (98ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (48ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.4 KB). Loaded Objects now: 3383.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 2.093834 ms (FindLiveObjects: 0.093875 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.899209 ms  DeleteObjects: 0.066708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.5 KB). Loaded Objects now: 3383.
+Memory consumption went from 61.0 MB to 61.0 MB.
+Total: 2.092916 ms (FindLiveObjects: 0.097167 ms CreateObjectMapping: 0.033833 ms MarkObjects: 1.898041 ms  DeleteObjects: 0.063584 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (64.5 KB). Loaded Objects now: 3383.
+Memory consumption went from 60.7 MB to 60.6 MB.
+Total: 6.441625 ms (FindLiveObjects: 0.256375 ms CreateObjectMapping: 0.032667 ms MarkObjects: 6.078791 ms  DeleteObjects: 0.073583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000898 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16dcef000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (498ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (362ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (65.4 KB). Loaded Objects now: 3386.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 2.310458 ms (FindLiveObjects: 0.121125 ms CreateObjectMapping: 0.039750 ms MarkObjects: 2.021417 ms  DeleteObjects: 0.127500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000896 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16dcef000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/onthecrow/My first project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (444ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (342ms)
+			LoadAssemblies (24ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (65.5 KB). Loaded Objects now: 3389.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 2.081250 ms (FindLiveObjects: 0.098000 ms CreateObjectMapping: 0.036125 ms MarkObjects: 1.847792 ms  DeleteObjects: 0.098667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (65.5 KB). Loaded Objects now: 3389.
+Memory consumption went from 61.0 MB to 61.0 MB.
+Total: 1.993667 ms (FindLiveObjects: 0.096125 ms CreateObjectMapping: 0.034541 ms MarkObjects: 1.810750 ms  DeleteObjects: 0.051916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42963.428070 seconds.
+  path: Assets/beautiful-shot-high-white-hilltops-mountains-covered-fog 1.png
+  artifactKey: Guid(75b226be3a2ac4983888f00c874719ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/beautiful-shot-high-white-hilltops-mountains-covered-fog 1.png using Guid(75b226be3a2ac4983888f00c874719ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9719fd58cc6f38eff07c52869793ab') in 0.420732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.903296 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png
+  artifactKey: Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png using Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42827f2111d4d9242f8d2b0a7fae5e5') in 0.031825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.253878 seconds.
+  path: Assets/Materials/000.mat
+  artifactKey: Guid(5a7bd3381515d46bb89c9739f6a4ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/000.mat using Guid(5a7bd3381515d46bb89c9739f6a4ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8877f5cf22b61fc2fa83b97e41a09ace') in 0.084745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.469704 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/SplashScreen_Light.unity
+  artifactKey: Guid(3ad4f8c442f444c5e966898c99704b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/SplashScreen_Light.unity using Guid(3ad4f8c442f444c5e966898c99704b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f31e4634217d3105cb292700c1e4cdb') in 0.001302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.477613 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/SplashScreen_Dark.unity
+  artifactKey: Guid(c340d6b0ee7f347b98ecab4430cc5df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/SplashScreen_Dark.unity using Guid(c340d6b0ee7f347b98ecab4430cc5df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdbb8e8853facb32ca18e814d513748') in 0.001602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.232615 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo
+  artifactKey: Guid(07b382c722cee448a96ba2927eefacc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo using Guid(07b382c722cee448a96ba2927eefacc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e837d5cdaac01c4db4a0513300942dc1') in 0.001144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.161970 seconds.
+  path: Assets/123.png
+  artifactKey: Guid(75b226be3a2ac4983888f00c874719ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/123.png using Guid(75b226be3a2ac4983888f00c874719ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782d47967e704048b70cdd201945186c') in 0.005893 seconds 
